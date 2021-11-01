@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: linear-gradient(to right top, #30e71f, #d1bf00, #ff8719, #ff567e, #f261cc);
+      min-height: 100vh;
+
+}
+
+.heading{
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bolder ;
+    text-align: center;
+    background-image: linear-gradient(to right, #2757b0, #0089e1, #00b4d7, #00d793, #71f01e);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    letter-spacing: 1px;
+  
+}
+
+.apple-container{
+    background-color: white ;
+    height: 430px;
+    width: 300px;
+    margin: 20px;
+    margin-right: 0px;
+    border-radius: 1rem;
+    border: crimson solid 4px;
+    box-shadow: 10px 10px 15px  rgb(13, 13, 14);
+    transition: all 0.2s;
+    opacity: 1;
+}
+
+.grid-container{
+    display: inline-grid;
+}
+
+.details{
+    padding-left: 20px;
+    padding-top: 10px;
+    
+    text-align: justify;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+   }
+   .apple-img{
+       border-radius: 1rem;
+    height: 300px;
+}
+
+.apple-container:hover{
+    transform: scale(1.1);
+ cursor: pointer;
+background-color: rgb(163, 238, 163);
+border: lime solid 4px;
+box-shadow: 10px 10px 15px  rgb(13, 13, 14);
+opacity: 1.1;
+}
